@@ -14,6 +14,7 @@ or in the cluster admin UI: Software Center → Repositories → Add repository.
 | Module | Source | Image |
 | --- | --- | --- |
 | ARSnova | https://github.com/tebbiworld/ns8-arsnova | ghcr.io/tebbiworld/arsnova |
+| ClamAV | https://github.com/tebbiworld/ns8-clamav | ghcr.io/tebbiworld/clamav |
 | ecoDMS | https://github.com/tebbiworld/ns8-ecodms | ghcr.io/tebbiworld/ecodms |
 | Foundry VTT | https://github.com/tebbiworld/ns8-foundryvtt | ghcr.io/tebbiworld/foundryvtt |
 | Hashtopolis | https://github.com/tebbiworld/ns8-hashtopolis | ghcr.io/tebbiworld/hashtopolis |
