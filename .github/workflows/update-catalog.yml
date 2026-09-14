@@ -1,0 +1,39 @@
+name: Update catalog
+
+# Regenerate repodata.json from the published module images: daily, on
+# request from a module's auto-release workflow (repository_dispatch) and
+# manually. Commits only when the catalog actually changed.
+
+on:
+  schedule:
+    - cron: "41 6 * * *"
+  repository_dispatch:
+    types: [module-released]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q skopeo
+          python3 -m pip install --quiet semver pyyaml filetype
+
+      - name: Regenerate repodata.json
+        working-directory: ns8/updates
+        run: python3 ../../createrepo.py .
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then echo "catalog unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Regenerate catalog${{ github.event.client_payload.module && format(' ({0} {1})', github.event.client_payload.module, github.event.client_payload.version) || '' }}"
+          git push
