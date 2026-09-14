@@ -67,7 +67,7 @@ if len(sys.argv) >= 2:
     path = sys.argv[1]
 
 # Walk all subdirectories
-for entry_path in glob.glob(path + '/*'): # do not match .git and similar
+for entry_path in sorted(glob.glob(path + '/*')): # do not match .git and similar
     if not os.path.isdir(entry_path):
         continue # ignore files
 
