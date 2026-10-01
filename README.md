@@ -27,7 +27,7 @@ or in the cluster admin UI: Software Center → Repositories → Add repository.
 | Plex Media Server | https://github.com/tebbiworld/ns8-plex | ghcr.io/tebbiworld/plex |
 | SageMath | https://github.com/tebbiworld/ns8-sagemath | ghcr.io/tebbiworld/sagemath |
 | TSA | https://github.com/tebbiworld/ns8-tsa | ghcr.io/tebbiworld/tsa |
-| windeploy (GPO based Software Deployment for Windows, testing) | https://github.com/tebbiworld/ns8-windeploy | ghcr.io/tebbiworld/windeploy |
+| windeploy (GPO based Software Deployment for Windows) | https://github.com/tebbiworld/ns8-windeploy | ghcr.io/tebbiworld/windeploy |
 
 ## Maintenance
 
