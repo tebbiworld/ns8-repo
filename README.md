@@ -24,6 +24,7 @@ or in the cluster admin UI: Software Center → Repositories → Add repository.
 | Minecraft Server | https://github.com/tebbiworld/ns8-minecraft | ghcr.io/tebbiworld/minecraft |
 | netboot.xyz | https://github.com/tebbiworld/ns8-netbootxyz | ghcr.io/tebbiworld/netbootxyz |
 | Open WebUI | https://github.com/tebbiworld/ns8-openwebui | ghcr.io/tebbiworld/openwebui |
+| Passbolt Export | https://github.com/tebbiworld/ns8-passbolt-export | ghcr.io/tebbiworld/passbolt-export |
 | Plex Media Server | https://github.com/tebbiworld/ns8-plex | ghcr.io/tebbiworld/plex |
 | SageMath | https://github.com/tebbiworld/ns8-sagemath | ghcr.io/tebbiworld/sagemath |
 | TSA | https://github.com/tebbiworld/ns8-tsa | ghcr.io/tebbiworld/tsa |
