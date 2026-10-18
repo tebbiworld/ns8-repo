@@ -19,7 +19,8 @@
   "docs": {
     "documentation_url": "https://github.com/tebbiworld/ns8-passbolt-export",
     "bug_url": "https://github.com/tebbiworld/ns8-passbolt-export/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-passbolt-export"
+    "code_url": "https://github.com/tebbiworld/ns8-passbolt-export",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-passbolt-export/releases"
   },
   "source": "ghcr.io/tebbiworld/passbolt-export"
 }

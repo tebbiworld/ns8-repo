@@ -14,7 +14,8 @@
   "docs": {
     "documentation_url": "https://github.com/huginn/huginn/wiki",
     "bug_url": "https://github.com/tebbiworld/ns8-huginn/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-huginn"
+    "code_url": "https://github.com/tebbiworld/ns8-huginn",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-huginn/releases"
   },
   "source": "ghcr.io/tebbiworld/huginn"
 }

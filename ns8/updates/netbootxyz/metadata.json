@@ -11,7 +11,8 @@
   "docs": {
     "documentation_url": "https://github.com/tebbiworld/ns8-netbootxyz/blob/main/README.md",
     "bug_url": "https://github.com/tebbiworld/ns8-netbootxyz/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-netbootxyz"
+    "code_url": "https://github.com/tebbiworld/ns8-netbootxyz",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-netbootxyz/releases"
   },
   "source": "ghcr.io/tebbiworld/netbootxyz"
 }

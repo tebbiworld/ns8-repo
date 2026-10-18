@@ -16,7 +16,8 @@
   "docs": {
     "documentation_url": "https://github.com/tebbiworld/ns8-idevice-backup/blob/main/README.md",
     "bug_url": "https://github.com/tebbiworld/ns8-idevice-backup/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-idevice-backup"
+    "code_url": "https://github.com/tebbiworld/ns8-idevice-backup",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-idevice-backup/releases"
   },
   "source": "ghcr.io/tebbiworld/idevice-backup"
 }

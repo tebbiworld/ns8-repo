@@ -14,7 +14,8 @@
   "docs": {
     "documentation_url": "https://www.odoo.com/documentation/19.0/",
     "bug_url": "https://github.com/tebbiworld/ns8-odoo/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-odoo"
+    "code_url": "https://github.com/tebbiworld/ns8-odoo",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-odoo/releases"
   },
   "source": "ghcr.io/tebbiworld/odoo"
 }

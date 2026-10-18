@@ -16,7 +16,8 @@
   "docs": {
     "documentation_url": "https://foundryvtt.com/kb/",
     "bug_url": "https://github.com/tebbiworld/ns8-foundryvtt/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-foundryvtt"
+    "code_url": "https://github.com/tebbiworld/ns8-foundryvtt",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-foundryvtt/releases"
   },
   "source": "ghcr.io/tebbiworld/foundryvtt"
 }

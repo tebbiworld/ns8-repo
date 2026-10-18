@@ -11,7 +11,8 @@
   "docs": {
     "documentation_url": "https://docs.clamav.net/",
     "bug_url": "https://github.com/tebbiworld/ns8-clamav/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-clamav"
+    "code_url": "https://github.com/tebbiworld/ns8-clamav",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-clamav/releases"
   },
   "source": "ghcr.io/tebbiworld/clamav"
 }
