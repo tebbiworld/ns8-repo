@@ -11,7 +11,8 @@
   "docs": {
     "documentation_url": "https://github.com/tebbiworld/ns8-sagemath/blob/main/README.md",
     "bug_url": "https://github.com/tebbiworld/ns8-sagemath/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-sagemath"
+    "code_url": "https://github.com/tebbiworld/ns8-sagemath",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-sagemath/releases"
   },
   "source": "ghcr.io/tebbiworld/sagemath"
 }

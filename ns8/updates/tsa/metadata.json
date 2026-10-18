@@ -11,7 +11,8 @@
   "docs": {
     "documentation_url": "https://github.com/tebbiworld/ns8-tsa/blob/main/README.md",
     "bug_url": "https://github.com/tebbiworld/ns8-tsa/issues",
-    "code_url": "https://github.com/tebbiworld/ns8-tsa"
+    "code_url": "https://github.com/tebbiworld/ns8-tsa",
+    "relnotes_url": "https://github.com/tebbiworld/ns8-tsa/releases"
   },
   "source": "ghcr.io/tebbiworld/tsa"
 }
